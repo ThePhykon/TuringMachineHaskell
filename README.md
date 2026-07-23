@@ -1,0 +1,14 @@
+# Turing Machine
+
+A simple Turing machine simulator written in Haskell.
+
+## Build
+```
+cabal build
+```
+
+## Run
+To run a Turing machine, you need a file that describes the machine. See the `examples` directory for examples.
+```
+cabal run turingmachine -- <path-to-machine-file>
+```
