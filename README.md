@@ -12,3 +12,24 @@ To run a Turing machine, you need a file that describes the machine. See the `ex
 ```
 cabal run turingmachine -- <path-to-machine-file>
 ```
+
+## Project Structure
+```
+.
+├── .gitignore
+├── CHANGELOG.md
+├── LICENSE
+├── README.md
+├── turingmachine.cabal
+├── app
+│   └── Main.hs
+├── examples
+│   ├── counter.tm
+│   └── increment.tm
+└── src
+    └── Turing
+        ├── Machine.hs
+        ├── Parser.hs
+        ├── Pretty.hs
+        └── Types.hs
+```
