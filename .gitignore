@@ -1,0 +1,15 @@
+# GHC / Cabal build artifacts
+dist-newstyle/
+*.hi
+*.o
+.ghc.environment.*
+
+# Cabal sandbox / project-local config (falls genutzt)
+cabal.project.local
+cabal.project.local~
+
+# Editor / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
